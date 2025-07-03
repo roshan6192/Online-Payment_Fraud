@@ -1,0 +1,12 @@
+prefix=e:/Projects/Online-Payment_Fraud/onlinenv/Library
+exec_prefix=e:/Projects/Online-Payment_Fraud/onlinenv/Library
+libdir=e:/Projects/Online-Payment_Fraud/onlinenv/Library/lib
+includedir=e:/Projects/Online-Payment_Fraud/onlinenv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
